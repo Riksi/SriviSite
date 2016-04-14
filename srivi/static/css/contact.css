@@ -1,0 +1,54 @@
+label{
+	display: block;
+	margin: 10px 0;
+}
+
+h2{
+	margin: 0;
+}
+
+section .inner-container div{
+	padding: 10px;
+}
+
+form{
+	margin: 0 auto;
+}
+
+input[type*='text'],textarea, .last-form-row{
+	width: 100%;
+	max-width: 350px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+input[type*='text']{
+	height: 35px;
+}
+
+textarea{
+	height: 250px;
+}
+
+input[type*='submit']{
+	float: right;
+	border: none;
+	background-color: #002C3E;	
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	color: #fff;
+	padding: 10px;
+}
+input[type*='submit']:hover{
+	opacity: 0.9;
+}
+
+
+@media only screen and (min-width: 768px){
+	form{
+		width: 80%;
+
+	}
+}

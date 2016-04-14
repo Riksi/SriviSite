@@ -1,0 +1,88 @@
+h1{
+	margin: 20px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.intro{
+	background-image: url('./images/bkgd.png');
+	background-size: cover;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	display: table;
+	padding: 0 60px;
+}
+
+.intro *{
+	background-color: transparent;
+}
+
+.intro .inner-container{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about .inner-container{
+	position: relative;
+	padding: 0 20px;
+}
+
+.about img{
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    vertical-align: middle;
+}
+
+.about article{
+	font-size: 16px;
+}
+
+.about-image{
+	text-align: center;
+	padding: 10px;
+
+}
+
+.about-text{
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.about-text p {
+	margin: 15px auto;
+}
+
+
+.home-image img{
+	width: auto;
+	height: auto;
+}
+
+#more-intro{
+	display: none;
+}
+
+
+@media only screen and (min-width: 768px){
+	.about article{
+		font-size: 16px;
+	}
+	.about img{
+			margin-top: 10px;
+	}
+	h1{
+		font-size: 32px;
+	}
+	.home-image{
+		margin-left: 8%;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.about article{
+		font-size: 16px;
+	}
+}

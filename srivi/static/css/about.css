@@ -1,0 +1,19 @@
+
+h2{
+	text-align: center;
+	font-size: 36px;
+	margin: 0;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+.about img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.about-text p{
+	font-size: 16px;
+}

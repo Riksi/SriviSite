@@ -1,0 +1,118 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Srivi's site</title>
+	 <link rel="stylesheet" href="{% static 'css/grid.css' %}"> </link>
+	 <link rel="stylesheet" href="{% static 'css/style_new.css' %}"> </link>
+	 <link rel="stylesheet" href="{% static 'css/home.css' %}"> </link>
+</head>
+<body>
+	<div class = 'container'>
+		<header>
+			<div class = 'inner-container row'>
+				<div class = 'col-3 logo-container'>
+					<div class = 'logo-inner'>
+						<img src="{% static 'images/logo_new.png' %}">
+					</div>
+				</div>
+				<nav class = 'col-9 header-menu' id = 'mobile-menu'>
+					<ul class = 'row'>
+						<li class = 'nav-link'>
+							<a href = './index.html'>HOME</a>
+						</li>
+						<li class = 'nav-link'>
+							<a href = './about.html'>ABOUT</a>
+						</li>
+						<li class = 'nav-link'>
+							<a href = './services.html'>SERVICES</a>
+						</li>
+						<li class = 'nav-link'>
+							<a href = './contact.html'>CONTACT</a>
+						</li>
+					</ul>	
+				</nav>
+				<div class = 'mm-button' id = 'mm-button'>
+					<div class = 'mm-button-inner'>
+						<div class = 'menu-bar'></div>
+						<div class = 'menu-bar'></div>
+						<div class = 'menu-bar'></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class = 'intro' style = 'background-image: url("{% static 'images/bkgd.png' %}")'>
+				<div class = 'inner-container'>
+					<h1><span>Do you want to get your research published and succeed with your grant applications? Are looking for high quality scientific editing services from a professional editor
+						with advanced scientific training? If so, then I can help.</span></h1>
+					<a href = './services.html'><button class = 'home-button'>Find out more</button></a>
+					<a href = './contact.html'><button class = 'home-button'>Get in touch</button></a>
+				</div>
+			</section>
+			<section class = 'testimonial'>
+				<div class = 'inner-container'>
+					<p> "Delighted with the service. It definitely helped my article get published." <span> Dr I M Afake, Nonsuch University </span> </p>
+				</div>
+			</section>
+			<section class = 'about home-about'>
+				<div class = 'inner-container row'>
+					<article class = 'about-text'>
+					<p id ='intro'>
+Do you have too many unsubmitted drafts of your research manuscripts piling up? 
+Are other duties holding you back from fully focusing on your writing? Do you want to improve the 
+clarity and flow of your manuscripts? Would you like critical feedback and editing to 
+ensure the success of your grant application? Have you ever wished you could have 
+a professional editor with advanced scientific training work with you on your 
+manuscripts? If any of this applies to you, then I can help. <!--a href ='#' id = 'show-more-intro'> Read more </a--> </p> 
+<span ><!--id = 'more-intro'-->
+	<p>
+	I am a San Francisco based scientific editor and writer with 20 years of experience in all aspects of life science research, both in academia and the biotech industry. This includes planning and conducting experiments, data analysis, data presentation, manuscript writing, and grant writing. I have authored, co-authored, edited, and proofread manuscripts, letters of intent (LOIs), R21,RO1, and SBIR grant applications, abstracts, conference papers, theses, and peer-review responses. 
+	</p>
+	<p>
+	I have a deep understanding of the peer-review process as it pertains to both manuscript and grant submissions. I understand the importance of effective communication in disseminating one's research findings to the larger scientific community, and will help you achieve your publication goals.
+	</p>
+</span>
+					<a href = './services.html' class = 'button-link'><button class = 'home-button'>Learn more about my services </button></a>
+					<!--a><button class = 'home-button'>About me</button></a-->
+					</article>
+				</div>
+			</section>
+			<section class = 'testimonial'>
+				<div class = 'inner-container'>
+					<p> "I found the critical review of my scientific work very useful, alongside the feedback on style." <span> Dr T H Inair, Humbug University </span> </p>
+				</div>
+			</section>				
+		</main>
+		<footer>
+			<div class = 'inner-container row'>
+				<div class = 'col-3 social-media'>
+					<span><img src = "{% static './images/fb.png' %}"></span>
+					<span><img src = "{% static './images/tw.png' %}"></span>
+					<span><img src = "{% static './images/in.png' %}"></span>
+				</div>								
+				<nav class = 'row'>
+					<ul class = 'row'>
+						<li class = 'nav-link'>
+							<a href = './index.html'>HOME</a>
+						</li>
+						<li class = 'nav-link'>
+							<a href = './about.html'>ABOUT</a>
+						</li>
+						<li class = 'nav-link'>
+							<a href = './services.html'>SERVICES</a>
+						</li>
+						<li class = 'nav-link'>
+							<a href = './contact.html'>CONTACT</a>
+						</li>					
+					</ul>	
+				</nav>
+
+				<div style = 'color:#ffffff;text-align:center;padding:10px;font-size:12px'>© 2016 Srividya Sundaresan </div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src = "{% static 'scripts/script.js' %}"></script>
+</body>
+</html>
